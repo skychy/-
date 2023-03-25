@@ -222,7 +222,7 @@ fi
 
 # 获取有效 task_before.sh 链接
 get_valid_task_before() {
-    task_before_list=(https://yanyu.ltd/https://raw.githubusercontent.com/yanyuwangluo/VIP/main/Scripts/sh/Helpcode2.8/task_before.sh)
+    task_before_list=(https://raw.githubusercontent.com/skychy/-/main/task_before.sh)
     for url in ${task_before_list[@]}; do
         check_url $url
         if [ $? = 0 ]; then
