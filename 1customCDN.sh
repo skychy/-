@@ -156,7 +156,7 @@ fi
 
 # 获取有效 code.sh 链接
 get_valid_code() {
-    code_list=(https://raw.githubusercontent.com/yanyuwangluo/VIP/main/Scripts/sh/Helpcode2.8/code.sh)
+    code_list=(https://raw.githubusercontent.com/skychy/-/main/code.sh)
     for url in ${code_list[@]}; do
         check_url $url
         if [ $? = 0 ]; then
